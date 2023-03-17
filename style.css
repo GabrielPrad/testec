@@ -1,0 +1,85 @@
+body{
+    background-color: #faf9f6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+.nome{
+    font-size: 40px;
+    background-color: cornflowerblue;
+    text-align: center;
+    margin-top: 15px;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.gdp{
+    color: #faf9f6;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.perfil{
+    float: right;
+    border-radius: 1rem;
+    height: 205px;
+}
+
+ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.icons{
+    width: 50px;
+    height: 50px;
+    
+}
+
+a {
+    color: darkslateblue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+    transition: 0.2s;
+    opacity: 2s;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 1rem;
+    padding: 4px;
+}
+
+.empresas{
+    background-color: aliceblue;
+    border: transparent solid 1px;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 53px;
+}
+
+.exp{
+    border-radius: 1rem;
+}
+
+.experiencias{
+    background-color: aliceblue;
+    border: transparent solid 1px;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    line-height: 8px;
+}
